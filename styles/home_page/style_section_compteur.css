@@ -1,0 +1,22 @@
+/*        Section Compteur 
+------------------------------*/
+
+#titre_compteur{
+	width: 30%;
+	margin: 5% 0 5% 15%;
+	font-size: 300%;
+}
+
+.count{
+	display: inline-block;
+	font-size: 200%;
+	margin: 0 3% 5% 0;
+}
+
+.titre_nombre_entreprise{
+	margin-bottom: 2%;
+}
+
+.nombre_count{
+
+}

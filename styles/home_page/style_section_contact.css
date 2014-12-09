@@ -1,0 +1,25 @@
+/* Section Contact 
+--------------------------------------*/
+
+
+.sectionContact{
+	padding: 5% 0 10% 0;
+}
+
+.titreSectionContact{
+	font-size: 300%;
+}
+
+
+div #Gmap{
+ 	width: 100%;
+}
+
+iframe #googleMap{
+ 	width: 100%;
+ 	height: 200%;
+}
+
+.section_contact{
+	display: inline-block;
+}

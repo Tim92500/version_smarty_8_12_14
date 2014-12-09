@@ -1,0 +1,26 @@
+/*        Section Guide 
+------------------------------*/
+
+.sectionGuide{
+	padding: 5% 0 7% 0;
+}
+
+.titreSectionGuide{
+	margin-left: 15%;
+	font-size: 300%;
+}
+
+.commentaireSectionGuide{
+	display: inline-block;
+	margin-left: 15%;
+	margin-top: 3%;
+	width: 30%;
+}
+
+.boutonSectionGuide{
+	display: inline-block;
+	padding: 1%;
+	margin-left: 35%;
+	text-decoration: none;
+}
+
