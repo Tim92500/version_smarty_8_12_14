@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2014-12-09 11:39:07
+<?php /* Smarty version Smarty-3.1.13, created on 2015-01-08 10:38:19
          compiled from "/Users/Timohee/Desktop/site/version_smarty_8_12_14/templates/header.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:5144388645486d14b608936-71579295%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'f2cba95e9f078964c4ed52d90381c89861af61f9' => 
     array (
       0 => '/Users/Timohee/Desktop/site/version_smarty_8_12_14/templates/header.tpl',
-      1 => 1418038414,
+      1 => 1420709839,
       2 => 'file',
     ),
   ),
@@ -15,13 +15,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.13',
+  'unifunc' => 'content_5486d14b685960_27957367',
   'variables' => 
   array (
     'header' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.13',
-  'unifunc' => 'content_5486d14b685960_27957367',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5486d14b685960_27957367')) {function content_5486d14b685960_27957367($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate ('head.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
 
@@ -76,7 +76,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <?php $_tmp3=ob_get_clean();?><?php if (($_tmp3=='index')){?>
 						<a class="span_headerVertical" href="htdocs/search.php"><li>Recherche</li></a>
 						<a class="span_headerVertical" href="htdocs/liste_entreprises.php"><li>Liste des entreprises</li></a>
-						<a class="span_headerVertical" href="htdocs/login.php"><li>Se Connecter</li></a>
+						<a class="span_headerVertical" href="htdocs/login.php"><li>Connexion</li></a>
+						<a class="span_headerVertical" href="htdocs/offres.php"><li>Offres</li></a>
 						<a class="span_headerVertical" href="htdocs/a_propos.php"><li>A Propos</li></a>
 						<a class="span_headerVertical" href="htdocs/contact.php"><li>Contact</li></a>
 					<?php }?>
@@ -85,7 +86,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <?php $_tmp4=ob_get_clean();?><?php if (($_tmp4!='index')){?>
 						<a class="span_headerVertical" href="search.php"><li>Recherche</li></a>
 						<a class="span_headerVertical" href="liste_entreprises.php"><li>Liste des entreprises</li></a>
-						<a class="span_headerVertical" href="login.php"><li>Se Connecter</li></a>
+						<a class="span_headerVertical" href="login.php"><li>Connexion</li></a>
+						<a class="span_headerVertical" href="offres.php"><li>Offres</li></a>
 						<a class="span_headerVertical" href="a_propos.php"><li>A Propos</li></a>
 						<a class="span_headerVertical" href="contact.php"><li>Contact</li></a>
 					<?php }?>
@@ -104,6 +106,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
 	<div id="page">
 
+
+<div class="parallax">
+
+<div class="ecran1" class="parallax__group" >
+
+<section class="parallax__layer parallax__layer--base">
 
 		<?php ob_start();?><?php echo $_smarty_tpl->tpl_vars['header']->value;?>
 <?php $_tmp5=ob_get_clean();?><?php if (($_tmp5=='index')){?>

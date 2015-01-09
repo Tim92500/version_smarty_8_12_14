@@ -45,7 +45,14 @@
 		</div>
 	</footer>
 	{/if}
-</div>
+
+
+</section>
+</div> <!-- div de ecran 2 -->
+</div> <!-- div de parallax -->
+
+</div><!-- div de page -->
+
 </body>
 
 </html>

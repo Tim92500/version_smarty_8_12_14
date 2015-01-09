@@ -47,7 +47,8 @@
 					{if ({$header} == 'index')}
 						<a class="span_headerVertical" href="htdocs/search.php"><li>Recherche</li></a>
 						<a class="span_headerVertical" href="htdocs/liste_entreprises.php"><li>Liste des entreprises</li></a>
-						<a class="span_headerVertical" href="htdocs/login.php"><li>Se Connecter</li></a>
+						<a class="span_headerVertical" href="htdocs/login.php"><li>Connexion</li></a>
+						<a class="span_headerVertical" href="htdocs/offres.php"><li>Offres</li></a>
 						<a class="span_headerVertical" href="htdocs/a_propos.php"><li>A Propos</li></a>
 						<a class="span_headerVertical" href="htdocs/contact.php"><li>Contact</li></a>
 					{/if}
@@ -55,7 +56,8 @@
 					{if ({$header} != 'index')}
 						<a class="span_headerVertical" href="search.php"><li>Recherche</li></a>
 						<a class="span_headerVertical" href="liste_entreprises.php"><li>Liste des entreprises</li></a>
-						<a class="span_headerVertical" href="login.php"><li>Se Connecter</li></a>
+						<a class="span_headerVertical" href="login.php"><li>Connexion</li></a>
+						<a class="span_headerVertical" href="offres.php"><li>Offres</li></a>
 						<a class="span_headerVertical" href="a_propos.php"><li>A Propos</li></a>
 						<a class="span_headerVertical" href="contact.php"><li>Contact</li></a>
 					{/if}
@@ -74,6 +76,12 @@
 
 	<div id="page">
 
+
+<div class="parallax">
+
+<div class="ecran1" class="parallax__group" >
+
+<section class="parallax__layer parallax__layer--base">
 
 		{if ({$header} == 'index')}
 		<div id="navHorizontal">

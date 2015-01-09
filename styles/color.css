@@ -29,7 +29,7 @@ header {
 
 
 
-
+/* -------- couleurs des polices  ---------- */
 
 span{
 	color: #aaa;	/* */
@@ -49,8 +49,14 @@ body{
 
 
 
+/* -------- couleurs des background  ---------- */
+
+
+
+
 header {
-	background-color: white;
+	/*background-color: white;*/
+	background-color: rgb(238, 238, 238);/* gris très clair*/
 	/*background-color: #009688; /* teal */
 	/*background-color: rgb(117,7,43);	/*rouge*/
 }
@@ -60,13 +66,14 @@ footer {
 	/*background-color: rgb(30,29,31); 	/* noir clair */
 }
 
-#titrePrincipal, .contentListeEntreprise, #titreEntreprise, #navHorizontal, #navHorizontalNonIndex{
+#titrePrincipal, .contentListeEntreprise, #titreEntreprise, .navHorizontal, .navHorizontalNonIndex{
 	background-color: #009688; /* teal */
 	/*background-color: #b30027; /*rouge*/
 }
 
 .contentListeEntreprise, .contentGuide, body{
-	background-color: rgb(238, 238, 238); /* gris très clair pour le fond */
+	/*background-color: rgb(238, 238, 238); gris très clair pour le fond */
+	background-color: white;
 }
 
 .boutonListeEntreprise, .boutonRetour, .boutonSectionGuide{
@@ -117,7 +124,7 @@ footer {
 
 
 .span_headerVertical:hover{
-	color:#CDDC39;
+	color: #CDDC39;
 }
 
 

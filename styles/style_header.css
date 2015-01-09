@@ -46,7 +46,7 @@ nav li {
 
 header {
 	position: fixed;
-	width: 10%;
+	width: 10.5em;
 	height: 100%;
 	z-index: 1;
 	padding: 3% 0 0% 0;
@@ -95,13 +95,13 @@ nav li {
 }
 
 #credit{
-	margin-top: 90%;
+	margin-top: 40%;
 	color: black;
 }
 
 
 #page {
-	margin-left: 10%;
+	margin-left: 10.5em;
 }
 
 #navHorizontal{
