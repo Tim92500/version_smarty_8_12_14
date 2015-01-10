@@ -63,10 +63,16 @@ aside{
 	padding-bottom: 25%;
 }
 
+#logo_site_header{
+    width: 80%;
+    height: auto;
+
+}
+
 nav {
 	display: inline-block; 
 	width: 100%; 
-	margin-top: 50%;
+	margin-top: 10%;
 }
 
 nav ul {
@@ -95,7 +101,7 @@ nav li {
 }
 
 #credit{
-	margin-top: 40%;
+	margin-top: 30%;
 	color: black;
 }
 
@@ -105,16 +111,15 @@ nav li {
 }
 
 #navHorizontal{
-	position: fixed;
+	position: absolute;
 	padding: 1% 0 1% 5%;
 	font-size: 200%;
-	width: 100%;
 }
 
 .navHorizontalTransparence, .navHorizontalNonIndex, .navHorizontalGagnerCompetivite ,.navHorizontalDemarcheCitoyenne, .navHorizontalContact, .navHorizontalOuvrirDonnees{
-	padding: 15% 0 5% 5%;
+	padding: 5.7% 0 5% 5%;
 	font-size: 200%;
-	width: 100%;
+	width: 95%;
 }
 
 

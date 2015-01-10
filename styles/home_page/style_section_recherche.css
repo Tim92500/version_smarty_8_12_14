@@ -2,7 +2,7 @@
 ------------------------------*/
 
 #search {
-	padding: 5% 0 15% 0;
+	padding: 6.1% 0 16.2% 0;
 }
 
 
@@ -24,6 +24,7 @@
 }
 
 #notice1{
+    display: none;
 	font-family: 'AlwaysForever',Arial,sans-serif;
 	font-size: 300%;
 	position: absolute;
@@ -34,6 +35,7 @@
 }
 
 #notice2{
+    display: none;
 	font-family: 'AlwaysForever',Arial,sans-serif;
 	font-size: 300%;
 	position: absolute;

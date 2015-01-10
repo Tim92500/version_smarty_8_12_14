@@ -39,17 +39,10 @@
 
 
 		<div class="row_footer">
-			<a class="span_footer" href="contact_about.html">
-				Made with ♥ by Data 4 All
-			</a>
+			
 		</div>
 	</footer>
 	{/if}
-
-
-</section>
-</div> <!-- div de ecran 2 -->
-</div> <!-- div de parallax -->
 
 </div><!-- div de page -->
 

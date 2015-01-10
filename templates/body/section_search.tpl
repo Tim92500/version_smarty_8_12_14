@@ -17,9 +17,3 @@
 		</center>
 </section>
 
-</section>
-</div><!-- div de ecran 1 -->
-
-<div class="ecran2" class="parallax__group">
-
-<section class="parallax__layer parallax__layer--deep">

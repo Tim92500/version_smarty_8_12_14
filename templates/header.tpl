@@ -37,7 +37,9 @@
 
 			<center>
 				<div class="logoVertical">
-					<a  class="span_header_logoVertical" href="../index.php"> Data 4 All (logo) </a>
+					<a  class="span_header_logoVertical" href="../index.php">
+						{if ({$header} == 'index')}<img id="logo_site_header" src="images/logo_site.png"> </a>{/if}
+						{if ({$header} != 'index')}<img id="logo_site_header" src="../images/logo_site.png"> </a>{/if}
 				</div>
 			</center>
 
@@ -77,16 +79,11 @@
 	<div id="page">
 
 
-<div class="parallax">
-
-<div class="ecran1" class="parallax__group" >
-
-<section class="parallax__layer parallax__layer--base">
 
 		{if ({$header} == 'index')}
 		<div id="navHorizontal">
 			<div id="titrePage">
-				{if ({$header} == 'index')} Accueil {/if}
+				{if ({$header} == 'index')} Accueil{/if}
 			</div>
 		</div>
 		{/if}
@@ -97,7 +94,7 @@
 				{if ({$header} == 'search')} Recherche {/if}
 				{if ({$header} == 'liste_entreprises')} Liste des Entreprises  {/if}
 				{if ({$header} == 'a_propos')} A Propos {/if}
-				{if ({$header} == 'login')} Connection {/if}
+				{if ({$header} == 'login')} Connexion {/if}
 			</div>
 		</div>
 		{/if}

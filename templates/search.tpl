@@ -1,9 +1,5 @@
 {include file='header.tpl'}
 
-<section id="titreSearch">
-	Recherche
-</section>
-
 <section id="formSearch">
 <center>
 

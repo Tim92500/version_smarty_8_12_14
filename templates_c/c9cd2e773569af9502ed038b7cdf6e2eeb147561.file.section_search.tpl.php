@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2015-01-08 10:38:19
+<?php /* Smarty version Smarty-3.1.13, created on 2015-01-09 18:15:49
          compiled from "/Users/Timohee/Desktop/site/version_smarty_8_12_14/templates/body/section_search.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:20120497305486d14b6cd2f6-01978779%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'c9cd2e773569af9502ed038b7cdf6e2eeb147561' => 
     array (
       0 => '/Users/Timohee/Desktop/site/version_smarty_8_12_14/templates/body/section_search.tpl',
-      1 => 1420709876,
+      1 => 1420823748,
       2 => 'file',
     ),
   ),
@@ -38,10 +38,4 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		</center>
 </section>
 
-</section>
-</div><!-- div de ecran 1 -->
-
-<div class="ecran2" class="parallax__group">
-
-<section class="parallax__layer parallax__layer--deep">
 <?php }} ?>
