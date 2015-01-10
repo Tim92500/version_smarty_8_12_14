@@ -15,6 +15,8 @@
 
 <div class="block_0_50">
 	<div class="block_0_50"><center><a class="boutons_connexion" href="">Particulier</a></center></div>
+	
+
 	<div class="block_50_100"><center><a class="boutons_connexion" href="">Entreprise</a></center></div>
 
 <div class="formulaire_creation_compte_entreprise">
@@ -32,6 +34,11 @@
 <div class="block_50_100">
 	<div class="block_0_50"><center><a class="boutons_connexion" href="">Particulier</a></center></div>
 	<div class="block_50_100"><center><a class="boutons_connexion" href="">Entreprise</a></center>
+	<script type="text/javascript">
+    //<!--
+        afficher_cacher('formulaire_creation_compte_entreprise');
+    //-->
+    </script>
 	</div>
 
 <div class="formulaire_creation_compte_entreprise">
